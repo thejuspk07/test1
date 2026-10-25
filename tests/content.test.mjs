@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const html=await fs.readFile('index.html','utf8');
+const baseline=JSON.parse(await fs.readFile('docs/content-baseline.json','utf8'));
+test('all original external destinations survive',()=>{for(const link of baseline.links)assert.ok(html.includes(`href="${link}"`),link);});
+test('all original skill items and factual project/internship bullets survive',()=>{for(const group of baseline.skills)for(const item of group.items)assert.ok(html.includes(item),item);for(const bullet of baseline.bullets)assert.ok(html.includes(bullet),bullet);});
+test('education, credentials and contact facts survive',()=>{for(const fact of ['Vimal Jyothi Engineering College, Chemperi, Kannur, Kerala','2023 — 2027','CGPA: 7.2','2020 — 2022','Score: 85%','2019 — 2020','Score: 95.5%','Chembilode Higher Secondary School','Microsoft Learn','IBM SkillsBuild','Wingspan / Forage','Python Fundamentals','Solutions Architecture Job Simulation','Machine Learning Internship Certificate','thejuspkwork@gmail.com','English 4/5','Hindi 3/5','Malayalam 5/5'])assert.ok(html.includes(fact),fact);});
+test('all section anchors resolve and IDs are unique',()=>{const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);for(const m of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),m[1]);});
+test('legacy animation and audio are absent from runtime',async()=>{const runtime=html+await fs.readFile('assets/app.js','utf8')+await fs.readFile('assets/styles.css','utf8');assert.doesNotMatch(runtime,/samurai|katana|vinyl|AudioContext|frames_720|three\.module|lenis|scramble/i);});
+test('all local HTML asset references exist',async()=>{for(const m of html.matchAll(/(?:src|href)="(assets\/[^"?#]+)"/g))await fs.access(m[1]);});

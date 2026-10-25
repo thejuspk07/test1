@@ -1,0 +1,93 @@
+{
+  "skills": [
+    {
+      "title": "LANGUAGES &amp; TOOLS",
+      "items": [
+        "Python",
+        "Java",
+        "C",
+        "SQL",
+        "HTML",
+        "Git",
+        "GitHub",
+        "Jupyter",
+        "Google Colab",
+        "VS Code"
+      ]
+    },
+    {
+      "title": "DEEP LEARNING",
+      "items": [
+        "TensorFlow",
+        "Keras",
+        "LSTM",
+        "LSTM Autoencoder",
+        "Neural Networks",
+        "Anomaly Detection"
+      ]
+    },
+    {
+      "title": "DEPLOYMENT &amp; HARDWARE",
+      "items": [
+        "Flask",
+        "Streamlit",
+        "REST API",
+        "Arduino",
+        "Serial Communication",
+        "IoT Integration",
+        "Real-Time Monitoring"
+      ]
+    },
+    {
+      "title": "MACHINE LEARNING",
+      "items": [
+        "Scikit-learn",
+        "Supervised Learning",
+        "Classification",
+        "Regression",
+        "Feature Engineering",
+        "Model Evaluation"
+      ]
+    },
+    {
+      "title": "NLP &amp; DATA ANALYSIS",
+      "items": [
+        "TF-IDF",
+        "Sentiment Analysis",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Data Cleaning",
+        "EDA"
+      ]
+    }
+  ],
+  "bullets": [
+    "Completed a 4-week ML internship covering data preprocessing, model development, model evaluation, and practical applications of AI techniques within a structured ML pipeline.",
+    "Applied supervised learning workflows on real-world datasets, covering data cleaning, feature engineering, model training, and performance evaluation using Python.",
+    "Collaborated with the team on documentation and testing of ML workflows, strengthening proficiency in dataset handling and Python-based predictive analytics.",
+    "AI-assisted water-management prototype combining LSTM inflow forecasts, coordinated MPC release planning, and an independent safety layer across four reservoirs.",
+    "A graph-based advisory branch supports spatial analysis, while a FastAPI and WebSocket backend powers the digital-twin view.",
+    "Validated as a software prototype; physical sensor and gate integration remains future work.",
+    "Transforms synthetic CMS-1500 claim PDFs and images into structured fields through PDF rendering, OCR, and calibrated spatial extraction.",
+    "Checks billing consistency and field confidence, then supports human review, corrections, audit history, and structured exports.",
+    "An educational, template-specific prototype for document processing; it does not make insurance-approval decisions.",
+    "AI-powered motor health monitoring using LSTM Autoencoder for real-time anomaly detection across 3 multi-sensor time-series streams (MPU6050).",
+    "Built real-time dashboards using Flask and Streamlit for reconstruction error visualization, live sensor data tracking, and predictive maintenance alerts.",
+    "Integrated Arduino-based LED alert system and tested/validated against live sensor streams for real-time performance monitoring.",
+    "End-to-end NLP pipeline to classify tweet sentiment across 2 categories (positive/negative), covering text preprocessing, TF-IDF feature extraction, model training, and evaluation.",
+    "Implemented SVM-based classification model and deployed an interactive Streamlit web application delivering real-time sentiment predictions on unseen text data."
+  ],
+  "links": [
+    "https://drive.google.com/file/d/1gVK9Wds8QMxc_IOFlB7HNnX-zkwQbTGO/view?usp=sharing",
+    "https://github.com/thejuspk07/AI-BASED-MULTI-RESERVOIR-WATER-MANAGEMENT-AND-FLOOD-PREVENTION-SYSTEM",
+    "https://github.com/thejuspk07/ClaimBridge",
+    "https://github.com/thejuspk07/LSTM-Based-Multi-Sensor-Anomaly-Detection",
+    "https://github.com/thejuspk07/Sentiment-Analysis-of-Tweets",
+    "https://sentiment-analysis-of-tweets-111111111.streamlit.app/",
+    "mailto:thejuspkwork@gmail.com",
+    "https://github.com/thejuspk07",
+    "https://linkedin.com/in/thejus-pk",
+    "mailto:thejuspkwork@gmail.com?subject=Requesting%20Phone%20Number"
+  ]
+}

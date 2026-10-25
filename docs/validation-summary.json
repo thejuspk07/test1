@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-25",
+  "lighthouseVersion": "13.5.0",
+  "categories": {
+    "performance": 97,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": {
+      "numericValue": 1512.57675,
+      "displayValue": "1.5 s"
+    },
+    "largest-contentful-paint": {
+      "numericValue": 1887.57675,
+      "displayValue": "1.9 s"
+    },
+    "cumulative-layout-shift": {
+      "numericValue": 0,
+      "displayValue": "0"
+    },
+    "total-blocking-time": {
+      "numericValue": 18.807749999999942,
+      "displayValue": "20 ms"
+    }
+  },
+  "browserChecks": [
+    "hero plays actual video; second scene not eagerly downloaded",
+    "pause stops playback without changing hero height",
+    "native-scroll hero timeline responds",
+    "scroll crossfades to rain and pauses outgoing video",
+    "solid content pauses all decorative videos",
+    "light theme persists across reload",
+    "project details open with original factual copy",
+    "copy email writes correct address",
+    "no horizontal overflow across all sections at 1440px",
+    "no horizontal overflow across all sections at 1024px",
+    "no horizontal overflow across all sections at 768px",
+    "no horizontal overflow across all sections at 390px",
+    "no horizontal overflow across all sections at 320px",
+    "mobile hero is unpinned",
+    "mobile navigation, anchors and Escape focus work",
+    "reduced motion uses posters, no video requests, no pin",
+    "blocked video preserves poster and content",
+    "no-JavaScript content and mobile navigation remain usable",
+    "no JavaScript errors or failed HTTP responses"
+  ],
+  "axe": [
+    {
+      "theme": "dark",
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "violations": 0
+    }
+  ]
+}

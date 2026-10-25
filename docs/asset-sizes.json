@@ -1,0 +1,34 @@
+[
+  {
+    "path": "assets/media/city-desktop.mp4",
+    "bytes": 3065836
+  },
+  {
+    "path": "assets/media/city-mobile.mp4",
+    "bytes": 783226
+  },
+  {
+    "path": "assets/media/city-poster-mobile.webp",
+    "bytes": 25342
+  },
+  {
+    "path": "assets/media/city-poster.webp",
+    "bytes": 67720
+  },
+  {
+    "path": "assets/media/rain-desktop.mp4",
+    "bytes": 3452722
+  },
+  {
+    "path": "assets/media/rain-mobile.mp4",
+    "bytes": 598677
+  },
+  {
+    "path": "assets/media/rain-poster-mobile.webp",
+    "bytes": 6600
+  },
+  {
+    "path": "assets/media/rain-poster.webp",
+    "bytes": 20294
+  }
+]
